@@ -2,7 +2,7 @@
 def fizzbuzz(num)
 
   #3でも5の倍数でもある場合FizzBuzz
-  if  num%3%5 == 0
+  if  num%15 == 0
     "FizzBuzz"
     
   #5の倍数の場合Buzz
